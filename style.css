@@ -1,6 +1,3 @@
-/* =====================
-   GLOBAL RESET
-===================== */
 html, body {
     margin: 0;
     padding: 0;
@@ -8,9 +5,6 @@ html, body {
     height: 100%;
 }
 
-/* =====================
-   BODY (PHONE CENTER)
-===================== */
 body {
     background: #000;
     display: flex;
@@ -24,9 +18,6 @@ body {
     --accent-gold: #fffb00;
 }
 
-/* =====================
-   PHONE CONTAINER
-===================== */
 .web-container,
 .webinfo {
     background: var(--slate-grey);
@@ -39,9 +30,6 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
-/* =====================
-   HEADER / LOGO / NAV
-===================== */
 .header {
     display: flex;
     flex-direction: column;
@@ -70,9 +58,6 @@ body {
     color: var(--primary-red);
 }
 
-/* =====================
-   NAVIGATION
-===================== */
 .nav-menu {
     display: flex;
     flex-wrap: wrap;
@@ -95,9 +80,6 @@ body {
     border-color: #e4842a;
 }
 
-/* =====================
-   FORMS / INPUTS
-===================== */
 .form-box {
     background: #222;
     padding: 20px;
@@ -131,9 +113,6 @@ button.btn-action {
     font-weight: bold;
 }
 
-/* =====================
-   PRODUCT GRID
-===================== */
 .product-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -153,9 +132,6 @@ button.btn-action {
     margin-bottom: 10px;
 }
 
-/* =====================
-   MEAT IMAGE & TEXT FIX
-===================== */
 .meat img {
     display: block;
     margin: 0 auto;
@@ -171,9 +147,6 @@ button.btn-action {
     margin: 10px 0;
 }
 
-/* =====================
-   TABLE
-===================== */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -192,9 +165,6 @@ td {
     text-align: center;
 }
 
-/* =====================
-   FOOTER / ACCESS
-===================== */
 .footer {
     text-align: center;
     border-top: 1px solid #444;
